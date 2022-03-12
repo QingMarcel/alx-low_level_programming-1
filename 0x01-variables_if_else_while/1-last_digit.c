@@ -21,13 +21,13 @@ int main(void)
 	if (last_digit > 5)
 	{
 		printf("Last digit of %d is %d and is greater than 5\n", n, last_digit);
-	} else if (last_digit \n", n, last_digit);
+	} else if (last_digit == 0)
+	{
+		printf("Last digit of %d is %d and is 0\n", n, last_digit);
 	} else
 	{
-		printf("Last dig== 0)
-	{
-		printf("Last digit of %d is %d and is 0it of %d is %d and is less than 6 and ", n, last_digit);
+		printf("Last digit of %d is %d and is less than 6 and ", n, last_digit);
 		printf("not 0\n");
 	}
 	return (0);
-}~
+}
